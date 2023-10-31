@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from S64_INSTA import main
+        from S64_INSTA import _xnxx_()
  
         _xnxx_()
  
@@ -24,7 +24,7 @@ if bit == "64bit":
  
 elif bit == "32bit":
  
-        from S32_INSTA import main
+        from S32_INSTA import _xnxx_()
  
  
         _xnxx_()
